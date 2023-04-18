@@ -1,0 +1,5 @@
+lst = list(map(int,input().split()))
+lst1 = list(map(int, input().split()))
+lst = set(lst)
+lst1 = set(lst1)
+print(len(lst & lst1))
